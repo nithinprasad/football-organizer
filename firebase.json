@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/football-manager",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
