@@ -10,9 +10,16 @@ const routes: Routes = [
     component: TournamentHomeComponent
   },
   {
+    path: 'not-found',
+    component: PageNotFoundComponent
+  },
+  {
     path: '',
     component: HomeComponent
-  }
+  },
+  { 
+    path: '**', 
+    redirectTo: '/not-found' }
 ];
 
 @NgModule({
