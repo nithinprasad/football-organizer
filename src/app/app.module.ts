@@ -20,6 +20,9 @@ import { JoinUsComponent } from './component/join-us/join-us.component';
 import { TeamStoreComponent } from './component/team-store/team-store.component';
 import { BreakingNewsComponent } from './component/breaking-news/breaking-news.component';
 import { FooterComponent } from './component/footer/footer.component';
+import { TournamentHomeComponent } from './pages/tournament-home/tournament-home.component';
+import { HomeComponent } from './pages/home/home.component';
+import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -54,7 +57,10 @@ const analytics = getAnalytics(app);
     JoinUsComponent,
     TeamStoreComponent,
     BreakingNewsComponent,
-    FooterComponent
+    FooterComponent,
+    TournamentHomeComponent,
+    HomeComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
