@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "football-tournament-planner"
+  },
+  "targets": {
+    "football-tournament-planner": {
+      "hosting": {
+        "football-manager": [
+          "football-tournament-planner"
+        ]
+      }
+    }
   }
 }
